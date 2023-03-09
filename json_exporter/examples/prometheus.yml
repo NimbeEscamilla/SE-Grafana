@@ -1,0 +1,29 @@
+scrape_configs:
+
+  ## gather metrics of prometheus itself
+- job_name: prometheus
+  static_configs:
+    - targets:
+      - 34.217.78.227:9090
+
+  ## gather the metrics of json_exporter application itself
+- job_name: json_exporter
+  static_configs:
+    - targets:
+      - 34.217.78.227:7979 ## Location of the json exporter's real <hostname>:<port>
+
+  ## gather the metrics from third party json sources, via the json exporter
+- job_name: json
+  scrape_interval: 15s
+  metrics_path: /probe
+  static_configs:
+    - targets:
+      - https://api.solarweb.com/swqapi/pvsystems/c990f4b2-6d63-4620-8ab8-fb935344ba87/aggdata
+  relabel_configs:
+    - source_labels: [__address__]
+      target_label: __param_target
+    - source_labels: [__param_target]
+      target_label: instance
+    - target_label: __address__
+      replacement: 34.217.78.227:7979 ## Location of the json exporter's real <hostname>:<port>
+

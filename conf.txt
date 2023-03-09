@@ -1,0 +1,3 @@
+AccessKeyId=FKIA3DF560810CBE4BDFAD4DF85A279659C3
+AccessKeyValue=0c1358c4-9a16-4a2f-8952-a4b8b96c68d6
+PATH=https://api.solarweb.com/swqapi/pvsystems/c990f4b2-6d63-4620-8ab8-fb935344ba87/aggdata

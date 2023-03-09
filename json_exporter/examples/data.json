@@ -1,0 +1,107 @@
+{
+    "pvSystemId": "c990f4b2-6d63-4620-8ab8-fb935344ba87",
+    "data": {
+      "logPeriod": {
+        "type": "total"
+      },
+      "channels": [
+        {
+          "channelName": "EnergyOutput",
+          "channelType": "Energy",
+          "unit": "Wh",
+          "values": {
+            "total": 312863491.2605
+          }
+        },
+        {
+          "channelName": "EnergyDirectConsumption",
+          "channelType": "Energy",
+          "unit": "Wh",
+          "values": {
+            "total": 0
+          }
+        },
+        {
+          "channelName": "EnergyProductionTotal",
+          "channelType": "Energy",
+          "unit": "Wh",
+          "values": {
+            "total": 312863491.2605
+          }
+        },
+        {
+          "channelName": "EnergySelfConsumptionTotal",
+          "channelType": "Energy",
+          "unit": "Wh",
+          "values": {
+            "total": 0
+          }
+        },
+        {
+          "channelName": "EnergyConsumptionTotal",
+          "channelType": "Energy",
+          "unit": "Wh",
+          "values": {
+            "total": 0
+          }
+        },
+        {
+          "channelName": "SavingsCO2",
+          "channelType": "CO2 savings",
+          "unit": "kg",
+          "values": {
+            "total": 165817.65
+          }
+        },
+        {
+          "channelName": "SavingsTrees",
+          "channelType": "CO2 savings",
+          "unit": "tree",
+          "values": {
+            "total": 4251.73
+          }
+        },
+        {
+          "channelName": "SavingsTravelCar",
+          "channelType": "CO2 savings",
+          "unit": "km",
+          "values": {
+            "total": 665399.88
+          }
+        },
+        {
+          "channelName": "SavingsTravelPlane",
+          "channelType": "CO2 savings",
+          "unit": "mile",
+          "values": {
+            "total": 2573.05
+          }
+        },
+        {
+          "channelName": "Profits",
+          "channelType": "Currency",
+          "unit": "MXN",
+          "values": {
+            "total": 876017.7729
+          }
+        },
+        {
+          "channelName": "Earnings",
+          "channelType": "Currency",
+          "unit": "MXN",
+          "values": {
+            "total": 876017.7729
+          }
+        },
+        {
+          "channelName": "Savings",
+          "channelType": "Currency",
+          "unit": "MXN",
+          "values": {
+            "total": 0
+          }
+        }
+      ]
+    },
+    "links": null
+  }
